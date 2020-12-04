@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="youknowthegravitything.exe" version="1.0.0.4" publicKeyToken="098e7b3ccd761b57" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="bombico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="youknowthegravitything" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="youknowthegravitything.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z9Z6HVUgsqMnRlAVfWGsIKfjHbAnXZ0PaTTF1ZtKiow=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>T/+ts11kAEKgCnl9tZM79A8hbDcLxDlI1V4dTEJxDMw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="youknowthegravitything.exe" size="423336">
+      <assemblyIdentity name="youknowthegravitything" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4KvxJFU+5IO8Z0mMBpxP5FJ+UhxqBPVwkO4UotB4GmA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bombico.ico" size="111059">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7NfS2WNk3MjVRlOUOJirxhh2A/h4wss4LaMsxsywh3g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="youknowthegravitything.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BALDUR\valde" issuerKeyHash="a2e1ae193b7e581fa8b80be8749b7e065fcfc453" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Oz4jL5shSCFd6iBFPQXGCIN5q4aJ8TlYdzvx6VYWMls=</DigestValue></Reference></SignedInfo><SignatureValue>Hm0iqr+lEIIdeSrCr51TcubiK9Mnb4gBh9bfCeufBJSpGDtce8oiQqmOfyjCh9o/yciY3h2zPF6VnLyBE+55PFiGR70noyKFaWAfI3s8UvzLMDST/Bi/IrgzIHJse/XEDt/Xrex0L0w0ieXKCo3CzfoPvgn8hF6meU9kqj/dmjc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yc7JswT7YHgH+BHpyv2H2hpZxSwZ2XHgllHnwXuwd+8u3iXlRFZBhLKCPQSfAHWX799Syd8IXOs6Cu3d/D4wvHXnuWjQoBX7YiuS9Qx7caW+wLErzhnRCt7pzl77ti8GjyihYLXthVCVhIsTmXxWSEoz1gtVDaizFCwPA5NBGD0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5b321656e9f13b775839f18986ab798308c6053d4520ea5d2148219b2f233e3b" Description="" Url=""><as:assemblyIdentity name="youknowthegravitything.exe" version="1.0.0.4" publicKeyToken="098e7b3ccd761b57" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BALDUR\valde</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QupY1Kbtpl6769fCdV44BjLj/Q7p+bGQwmWWUZ+QzT8=</DigestValue></Reference></SignedInfo><SignatureValue>A6QlPvYnqiy3YhGDvT05vJLuYaQqmYc6jIrW55AG+Ajw+/cCfqnxmic9tUc1GDXeRKp9j7FqbxhpNG4da3RpiaPOuRqqDnlX43pGqAmpE9nsuPL98Bbo7BBS9eOt8CCrvtw9dlhvgx7T1B79fU5Yc7eNGCccsq+Mgcdl/1jVuv8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yc7JswT7YHgH+BHpyv2H2hpZxSwZ2XHgllHnwXuwd+8u3iXlRFZBhLKCPQSfAHWX799Syd8IXOs6Cu3d/D4wvHXnuWjQoBX7YiuS9Qx7caW+wLErzhnRCt7pzl77ti8GjyihYLXthVCVhIsTmXxWSEoz1gtVDaizFCwPA5NBGD0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQawraa+UmSqBAtdYylc1f9TANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQgBBAEwARABVAFIAXAB2AGEAbABkAGUwHhcNMjAxMTE3MTg0NTA4WhcNMjExMTE4MDA0NTA4WjAjMSEwHwYDVQQDHhgAQgBBAEwARABVAFIAXAB2AGEAbABkAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnOybME+2B4B/gR6cr9h9oaWcUsGdlx4JZR58F7sHfvLt4l5URWQYSygj0EnwB1l+/fUsnfCFzrOgrt3fw+MLx157lo0KAV+2IrkvUMe3GlvsCxK84Z0Qre6c5e+7YvBo8ooWC17YVQlYSLE5l8VkhKM9YLVQ2osxQsDwOTQRg9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAo80T3Uqh50ZNAKNo34GsAClFx+Vw9ZdQXDaHTTHkAdoljNALDrN5GSSEDHynwGwjQqBf8U46h1uO13PaeQACLDfk5dohm5hQ81TCjv3rDNNTeA9R1XI0adp+LZzyCwswGhgx/P21X15d0moPfjy6f61OD867hxOB6tCrNhMsPSg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
